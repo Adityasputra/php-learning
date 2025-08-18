@@ -1,0 +1,28 @@
+<?php
+
+function sum(int $first, int $last)
+{
+    return $first + $last;
+}
+
+$total = sum(10, 10);
+var_dump($total);
+
+function getFinalValue(int $value)
+{
+    if ($value >= 90) {
+        return "A";
+    } elseif ($value >= 80) {
+        return "B";
+    } elseif ($value >= 60) {
+        return "C";
+    } elseif ($value >= 50) {
+        return "D";
+    } else {
+        return "E";
+    }
+}
+
+$value = getFinalValue(100);
+echo $value . PHP_EOL;
+var_dump($value);
