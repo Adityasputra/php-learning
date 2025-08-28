@@ -22,14 +22,17 @@ This repository contains a collection of PHP exercises and tutorials. The materi
 ## How to Use
 
 1. Clone this repository:
+
     ```bash
     git clone https://github.com/Adityasputra/php-learning.git
     ```
+
 2. Explore the folders and files:
     - Each folder covers different PHP topics or levels.
     - Try to solve the exercises yourself before checking the solutions.
 
 3. Run PHP scripts locally:
+
     ```bash
     php filename.php
     ```
