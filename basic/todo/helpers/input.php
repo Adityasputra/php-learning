@@ -1,8 +1,11 @@
 <?php
 
-function input($value)
+function input(string $label): string
 {
-    echo "$value :";
+    if ($label !== "") {
+        echo $label . ": ";
+    }
+
     $result = fgets(STDIN);
     return trim($result);
 }
