@@ -1,0 +1,4 @@
+<?php
+
+// CamelCase
+class Person {}
